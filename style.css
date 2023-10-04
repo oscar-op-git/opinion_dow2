@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./imageD/Backg.jpg');
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    text-align: justify;
+    
+}
+
+.main--title{
+    display: block;
+    text-align: center;
+}   
+
+.subtitle{
+    width: 45%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.title--thin{
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.title--bold{
+    font-weight: 600;
+    font-size: 2.2em;
+}
+
+.cards{
+    position: relative;
+    width: 1290px;
+    height: 650px;
+    margin:  0 auto;
+}
+/* un absolute hace desaparecer sus propiedades */
+.card{
+    position: absolute;
+    width: 390px;
+    height: 290px;
+    border-radius: 20px;
+    padding: 0 25px 0 25px;
+    font-size: 1.1em;
+}
+
+.card__top{
+    margin-top: 30px;
+    top: 0;
+    left: 425px;
+    background-image: url('./imageD/Backgig.jpg');
+    background-size: cover;
+    text-shadow: 0 0 5px brown, 0 0 5px brown;
+}
+
+.card__right{
+    right: 0;
+    top: 150px;
+    background-image: url('./imageD/Necron.jpg');
+    background-size: cover;
+    text-shadow: 0 0 5px greenyellow, 0 0 5px greenyellow;
+}
+
+.card__bottom{
+    bottom: 0;
+    left: 425px;
+    background-image: url('./imageD/EoF1.jpg');
+    background-size: cover;
+    text-shadow: 0 0 5px purple, 0 0 5px purple;
+}
+
+.card__left{
+    left: 0;
+    top: 150px;
+    background-image: url('./imageD/chaosp.jpg');
+    background-size: cover;
+    text-shadow: 0 0 5px cornflowerblue, 0 0 5px cornflowerblue;
+}
+
+
+
